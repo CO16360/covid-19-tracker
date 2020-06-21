@@ -42,7 +42,7 @@ export default class CoronaTracker extends Component {
            })
        })
       .catch(error=>{
-          console.log(console.error.response);
+          console.log(error.response);
           
       })
     }
